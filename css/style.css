@@ -856,6 +856,21 @@ body,
     .copyright {
         height: 98px;
     }
+
+    /* @media (orientation: landscape) {
+        .trend-now-list {
+            flex-wrap: nowrap;
+        }
+    
+        .trend-now-item:nth-child(n) {
+            width: calc(25% - 1.5px);
+            margin: 0;
+        }
+    
+        .trend-now-item:not(:last-child) {
+            margin-right: 2px;
+        }
+    }  */
 }  
 
 @media (max-width: 640px) {
